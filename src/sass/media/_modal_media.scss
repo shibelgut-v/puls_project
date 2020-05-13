@@ -1,0 +1,45 @@
+@media (max-width: 991px) {
+    .modal {
+        width: 50%;
+    }
+    .feed-form_mt25 {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .modal {
+        width: 65%;
+    }
+    .feed-form_mt25 {
+        width: 100%;
+    }
+}
+
+@media (max-width: 575px) {
+    .modal {
+        width: 85%;
+        padding: 18px 20px 20px 20px;
+        &__close {
+            top: -30px;
+            right: 0;
+        }
+    }
+    .feed-form_mt25 {
+        width: 100%;
+        margin-top: 10px;
+        margin-bottom: 0;
+        input {
+            margin-bottom: 10px;
+            height: 45px;
+            font-size: 13px;
+        }
+        .button_submit {
+            display: block;
+            margin: 0 auto;
+            width: 90%;
+            height: 50px;
+            font-size: 12px;
+        }
+    }
+}
+

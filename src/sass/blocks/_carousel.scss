@@ -1,8 +1,10 @@
 .carousel {
     padding: 81px 0;
     &__inner {
+
+  
         position: relative;
-        width: 750px;
+        max-width: 750px;
         margin: 0 auto;
     }
     .slick-prev, .slick-next {
@@ -23,6 +25,44 @@
         left: auto;
     }
 }
+.carousel__inner ul.slick-dots {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.carousel__inner .slick-dots li {
+   list-style: none;
+   margin: 0 15px;
+}
+.carousel__inner .slick-dots button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border: none;
+    border-radius: 50%;
+
+ }
+.carousel__inner .slick-dots li button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #c70101;
+    border-radius: 50%;
+    margin: 23px 0;
+    padding: 0;
+    
+}
+.carousel__inner .slick-dots li.slick-active button {
+    background-color: transparent;
+    border: 2px solid  #c70101;
+    width: 15px;
+    height: 15px;
+}
+
+
+
 
 
 
